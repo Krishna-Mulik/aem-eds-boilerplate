@@ -1,0 +1,77 @@
+
+.philosophy-banner {
+  width: 100%;
+  background-color: #0c50a1;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 20px 0 0;
+  box-sizing: border-box;
+}
+
+.philosophy-banner .philosophy-banner-row {
+  display: block;
+  padding: 30px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.philosophy-banner .philosophy-banner-heading {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.philosophy-banner .philosophy-banner-heading h3,
+.philosophy-banner .philosophy-banner-heading p {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.philosophy-banner .philosophy-banner-body {
+  display: block;
+  max-width: 60%;
+}
+
+.philosophy-banner .philosophy-banner-body p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.7;
+  text-align: justify;
+  margin: 0;
+}
+
+.philosophy-banner .philosophy-banner-readmore {
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  float: right;
+  margin-top: 8px;
+  transition: opacity 0.2s;
+}
+
+.philosophy-banner .philosophy-banner-readmore:hover {
+  opacity: 0.75;
+}
+
+@media (max-width: 599px) {
+  .philosophy-banner .philosophy-banner-body {
+    max-width: 100%;
+  }
+
+  .philosophy-banner .philosophy-banner-heading h3,
+  .philosophy-banner .philosophy-banner-heading p {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 900px) {
+  .philosophy-banner .philosophy-banner-row {
+    padding: 50px 20px 40px;
+  }
+}
